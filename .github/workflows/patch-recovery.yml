@@ -3,11 +3,11 @@ name: Patch recovery for fastbootd
 on:
   workflow_dispatch:
     inputs:
-      model:
+      model: SM-A047F
         description: 'Your Model Number'
         required: true
 
-      recovery_link:
+      recovery_link: https://filebin.net/bb1uzvsjaomwnnwj
         description: 'Enter the Direct Download Link (.img / .lz4 / .zip / .tar):'
         required: true   
               
